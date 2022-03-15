@@ -182,9 +182,44 @@
   font-weight: normal;
 }
 
-/* feyman */
+/* feynman */
+
+.feynman > * {
+  border: 2px solid red;
+}
+
+.feynman {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+
+}
+
+.feynman__title {
+  align-self: center;
+  text-align: center;
+  margin-top: 100px;
+  width: 648px;
+
+}
+
+.feynman__subtitle {
+  align-self: center;
+  text-align: center;
+  display: inline;
+  margin: auto;
 
 
+}
+
+.feynman__link {
+
+}
+
+.feynman__pic {
+  width: 867px;
+  height: 637px;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
