@@ -49,7 +49,6 @@
   font-size: 18px;
   line-height: 25px;
   z-index: 2;
-
 }
 
 .header__link {
@@ -65,12 +64,11 @@
 }
 
 .header__square-pic {
-  position: absolute;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  top: 64px;
-  right: 0px;
+  margin-top: 64px;
+  margin-left: auto;
   z-index: 0;
 }
 
@@ -84,7 +82,7 @@
 }
 
 .two-columns__main-text {
-  margin: 0;
+  margin: 0px;
   width: 80%;
   min-width: 784px;
 
@@ -97,7 +95,7 @@
 }
 
 .two-columns__brief {
-  margin: 0;
+  margin: 0px;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -134,12 +132,12 @@
 }
 
 .section-title {
+  margin: 0px;
   width: 60%;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  margin: 0px;
 }
 
 .section-subtitle {
@@ -294,18 +292,6 @@
 /* footer */
 
 .footer {
-  border: 2px solid red;
-}
-
-.footer {
-  border: 2px solid red;
-}
-
-.footer > * {
-  border: 2px solid red;
-}
-
-.footer {
   display: flex;
   background-color: #1f1f1f;
   min-height: 350px;
@@ -323,7 +309,6 @@
 }
 
 .footer__column_content_copyright {
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -336,7 +321,6 @@
 }
 
 .footer__author {
-  border: 2px solid rebeccapurple;
   margin: 18px 0px 18px 0px;
   line-height: 25px;
   font-size: 18px;
@@ -344,17 +328,13 @@
 }
 
 .footer__column_content_info {
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  list-style: none;
-  margin: 0; 
 
 }
 
 .footer__column-heading {
-  border: 2px solid red;
   margin: 0px 0px 20px 0px;
   line-height: 30px;
   font-size: 18px;
@@ -368,42 +348,29 @@
   align-items: flex-start;
 }
 
-.footer__column-heading {
-
+.footer__column-links {
+  margin: 0px 0px 16px 0px;
+  list-style-type: none;
 }
 
-.logo__place_footer {
-
-}
-
-.footer__author {
-
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
 }
 
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  list-style: none;
-  margin: 0; 
-}
-
-.footer__column-links {
-  list-style-type: none;
-
-}
-
-
-.footer__column-link {
-  text-decoration: none;
-  color: white;
-
 }
 
 .footer__social-icon {
   height: 16px;
   width: 16px;
-  margin-right: 10px;
+  margin: 0px 10px 0px 0px;
 }
 
 
