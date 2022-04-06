@@ -2,9 +2,9 @@
   text-decoration: none;
   font-weight: normal;
   color: #2f80ed;
+  transition: opacity 1s;
 }
 
 .link:hover {
   opacity: 0.4;
-  transition: opacity 1s;
 }
